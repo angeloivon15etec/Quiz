@@ -1,17 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Quiz.css'
+import {data} from '../../../assets/data';
 
 const Quiz = () => {
+
+  let [index,setIndex] = useState(0);
+  let [question,setQuestions] = useState(data[index]);
+
   return(
     <div className='container'> 
     <h1>Quiz App</h1>
     <hr />
-    <h2>which device is required for the internet?</h2>
+    <h2>{index+1}.{question.question}</h2>
     <ul>
-        <li>moden</li>
-        <li>router</li>
-        <li>lan cable</li>
-        <li>pen drive</li>
+        <li>{question.option1}</li>
+        <li>{question.option2}</li>
+        <li>{question.option3}</li>
+        <li>{question.option4}</li>
     </ul>
     <button>next</button>
     <div className="index">1 of 5 questions</div>
