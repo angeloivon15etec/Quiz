@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "Quem é o Brawler mais rápido do jogo?",
+    option1: "El Primo",
+    option2: "Crow",
+    option3: "Jessie",
+    option4: "Sandy",
+    ans: 2,
+  },
+  {
+    question: "Qual desses Brawlers é da classe 'Tanker'?",
+    option1: "Poco",
+    option2: "El Primo",
+    option3: "Mortis",
+    option4: "Spike",
+    ans: 2,
+  },
+  {
+    question: "Qual é o Brawler lendário que lança veneno?",
+    option1: "Crow",
+    option2: "Leon",
+    option3: "Spike",
+    option4: "Amber",
+    ans: 1,
+  },
+  {
+    question: "Em qual modo de jogo você coleta e segura gemas?",
+    option1: "Brawl Ball",
+    option2: "Gem Grab",
+    option3: "Heist",
+    option4: "Showdown",
+    ans: 2,
+  },
+  {
+    question: "Qual Brawler possui a habilidade 'Super Totem'?",
+    option1: "Bo",
+    option2: "Sprout",
+    option3: "Tara",
+    option4: "Barley",
+    ans: 1,
+  },
+];
